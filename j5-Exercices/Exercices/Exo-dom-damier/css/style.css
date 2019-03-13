@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+#board {
+  border: 2px solid red;
+  width: 404px;
+  height: 404px;
+}
+
+#board:after {
+  content: "";
+  display: block;
+  clear: both;
+}

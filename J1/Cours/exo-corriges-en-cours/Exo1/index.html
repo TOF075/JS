@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercices</title>
+</head>
+<body>
+    <h1>Exercices (ouvrir la console)</h1>
+    <script>
+        //EXO 1
+        //simple calculatrice :
+        //en utilisant des variables,
+        //dans un console.log() afficher les résultats
+        //de 6 + 3
+        //de 6 - 3
+        //de 6 * 3
+        //de 6 / 3
+        //faire une concaténation de ces résultats 
+        //dans une phrase qui énonce 'Voici les résultats: ...,...,...,...'
+        //remplacer les ... par les résultats
+        console.log( '- Exo 1 -');
+        var add = 6 + 3;
+        var sous = 6 - 3;
+        var mult = 6 * 3;
+        var div = 6 / 3;
+        console.log('Voici les résultats: '
+                    + add + ', '
+                    + sous + ', '
+                    + mult + ', '
+                    + div + '.');
+        
+        //Exercice 2 :
+        //Tests de prédiction :
+        console.log( '- Exo 2 -');
+        console.log( 4 + 5); // 9
+        console.log("4 + 5"); // '4 + 5'
+        console.log('4' + '6'); // '46'
+        console.log( typeof (4 + '5') ); // string
+        console.log(45); //45
+        //console.log(quaranteCinq); //Error
+        console.log('quaranteCinq'); // Rien car erreur juste avant !!!
+
+
+        //Exercice 3 :
+        // Permutation de variables
+        var nombre1 = 5; 
+        var nombre2 = 3;
+        //astuce, vous n'êtes pas limité à 2 variables
+        var temp = nombre1; //je stocke la variable 1 dans temp -> 5
+        //j'attribue la valeur de nombre2 à nombre1
+        nombre1 = nombre2; // nombre2 et nombre1 valent tous les deux -> 3
+        //je récupère la valeur de temp et je l'attribue à nombre2 -> 5
+        nombre2 = temp; // 5
+
+        console.log(nombre1); //3
+        console.log(nombre2); //5
+
+    </script>
+</body>
+</html>

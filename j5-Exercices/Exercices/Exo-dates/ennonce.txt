@@ -1,0 +1,15 @@
+# Les dates
+
+
+## Exercice 1
+
+Ecrivez une fonction Javascript permettant l’affichage de la date complète. On ne s’occupera pas du format d’affichage, on se contentera d’un "simple" affichage standard de l’objet Date.
+
+## Exercice 2
+
+Écrivez une fonction Javascript permettant l’affichage de la date sous la forme "jour mois année", par exemple : "Nous sommes 3 janvier 2013, il est 8 h 15 min. 36 sec." Vous écrirez votre script pour le navigateur que vous voulez.
+
+## Exercice 3
+
+compter et afficher le nombre de jours restant entre aujourd'hui et votre prochain anniversaire.
+

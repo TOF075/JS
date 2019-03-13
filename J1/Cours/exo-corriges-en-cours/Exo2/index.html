@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice 2</title>
+</head>
+<body>
+    <h1>Exercice 2</h1>
+
+    <script>
+        /**
+         * Exercice 2 :
+         * Avec des invites de commandes,
+         * demander à l'utilisateur son nom, prénom et age.
+         * Stocker les résultats dans des variables
+         * Afficher dans la console une phrase qui dit:
+         * "Bonjour, je m'appelle --- ---, j'ai --- ans."
+         * remplacer les tirets par les variables
+         */
+        var nom = prompt('Quel est votre nom ?');
+        var prenom = prompt('Quel est votre prénom ?');
+        var age = prompt('Quel est votre age ?');
+
+        console.log('Bonjour, je m\'appelle '+ prenom + ' ' + nom + ', j\'ai ' + age + ' ans.');
+        /** Exercice bonus :
+         * Demander à l'utilisateur de saisir un prix HT.
+         * Calculer le prix TTC (* 1.2) du prix HT et 
+         * l'afficher dans la console.
+         * Attention, il faut convertir le type string en number...
+         */
+        var prix = Number( prompt('Indiquez un prix HT en euros :') );
+        var prixTTC = prix * 1.2;
+        console.log('Le prix TTC est de : ' + prixTTC + ' €');
+        
+    </script>
+</body>
+</html>
